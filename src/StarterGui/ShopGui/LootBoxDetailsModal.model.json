@@ -119,12 +119,23 @@
             "BackgroundTransparency": 1.0,
             "Font": "GothamBold",
             "TextSize": 16,
+            "TextScaled": true,
             "TextColor3": [0.9882, 0.8392, 0.3765],
             "TextXAlignment": "Left",
             "TextTruncate": "AtEnd",
-            "Text": "Caja Básica de Motores",
+            "Text": "Caja de motor básica",
             "ZIndex": 34
-          }
+          },
+          "children": [
+            {
+              "name": "UITextSizeConstraint",
+              "className": "UITextSizeConstraint",
+              "properties": {
+                "MinTextSize": 10,
+                "MaxTextSize": 16
+              }
+            }
+          ]
         },
         {
           "name": "CategoryBadge",

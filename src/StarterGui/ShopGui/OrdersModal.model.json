@@ -1,0 +1,288 @@
+{
+  "className": "Frame",
+  "properties": {
+    "AnchorPoint": [0.5, 0.5],
+    "Position": { "UDim2": [[0.5, 0], [0.52, 0]] },
+    "Size": { "UDim2": [[0.66, 0], [0.70, 0]] },
+    "BackgroundColor3": [0.0706, 0.0902, 0.1294],
+    "BackgroundTransparency": 0.02,
+    "BorderSizePixel": 0,
+    "Visible": false,
+    "Active": true,
+    "ZIndex": 28
+  },
+  "children": [
+    {
+      "name": "UICorner",
+      "className": "UICorner",
+      "properties": {
+        "CornerRadius": { "UDim": [0.0, 12] }
+      }
+    },
+    {
+      "name": "UIStroke",
+      "className": "UIStroke",
+      "properties": {
+        "Color": [0.2824, 0.5961, 0.5412],
+        "Thickness": 1.5
+      }
+    },
+    {
+      "name": "UISizeConstraint",
+      "className": "UISizeConstraint",
+      "properties": {
+        "MinSize": [500, 320],
+        "MaxSize": [780, 480]
+      }
+    },
+    {
+      "name": "Header",
+      "className": "Frame",
+      "properties": {
+        "Size": { "UDim2": [[1.0, 0], [0.0, 46]] },
+        "BackgroundColor3": [0.0941, 0.1216, 0.1765],
+        "BorderSizePixel": 0,
+        "ZIndex": 29
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 12] }
+          }
+        },
+        {
+          "name": "TitleLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 16], [0.0, 4]] },
+            "Size": { "UDim2": [[1.0, -70], [0.0, 22]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamBold",
+            "TextSize": 15,
+            "TextColor3": [0.9569, 0.9725, 1],
+            "TextXAlignment": "Left",
+            "Text": "MIS PEDIDOS Y ENTREGAS",
+            "ZIndex": 30
+          }
+        },
+        {
+          "name": "ZoneSummaryLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 16], [0.0, 25]] },
+            "Size": { "UDim2": [[1.0, -70], [0.0, 16]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamMedium",
+            "TextSize": 11,
+            "TextColor3": [0.5804, 0.8941, 0.8078],
+            "TextXAlignment": "Left",
+            "Text": "DeliveryZone compartida: 0/6 cajas visibles · En cola: 0",
+            "ZIndex": 30
+          }
+        },
+        {
+          "name": "CloseButton",
+          "className": "TextButton",
+          "properties": {
+            "AnchorPoint": [1.0, 0.5],
+            "Position": { "UDim2": [[1.0, -10], [0.5, 0]] },
+            "Size": { "UDim2": [[0.0, 32], [0.0, 30]] },
+            "BackgroundColor3": [0.5804, 0.2039, 0.2196],
+            "BorderSizePixel": 0,
+            "AutoButtonColor": true,
+            "Font": "GothamBold",
+            "TextSize": 14,
+            "TextColor3": [1, 0.9608, 0.9608],
+            "Text": "✕",
+            "ZIndex": 30
+          },
+          "children": [
+            {
+              "name": "UICorner",
+              "className": "UICorner",
+              "properties": {
+                "CornerRadius": { "UDim": [0.0, 8] }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OrdersScroll",
+      "className": "ScrollingFrame",
+      "properties": {
+        "Position": { "UDim2": [[0.0, 12], [0.0, 56]] },
+        "Size": { "UDim2": [[1.0, -24], [1.0, -68]] },
+        "BackgroundColor3": [0.051, 0.0667, 0.098],
+        "BorderSizePixel": 0,
+        "CanvasSize": { "UDim2": [[0.0, 0], [0.0, 0]] },
+        "AutomaticCanvasSize": "Y",
+        "ScrollBarThickness": 6,
+        "ZIndex": 29
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 8] }
+          }
+        },
+        {
+          "name": "UIPadding",
+          "className": "UIPadding",
+          "properties": {
+            "PaddingTop": { "UDim": [0.0, 8] },
+            "PaddingBottom": { "UDim": [0.0, 8] },
+            "PaddingLeft": { "UDim": [0.0, 8] },
+            "PaddingRight": { "UDim": [0.0, 8] }
+          }
+        },
+        {
+          "name": "UIListLayout",
+          "className": "UIListLayout",
+          "properties": {
+            "SortOrder": "LayoutOrder",
+            "Padding": { "UDim": [0.0, 8] }
+          }
+        },
+        {
+          "name": "EmptyOrdersLabel",
+          "className": "TextLabel",
+          "properties": {
+            "LayoutOrder": 1,
+            "Size": { "UDim2": [[1.0, 0], [0.0, 32]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "Gotham",
+            "TextSize": 12,
+            "TextColor3": [0.6431, 0.7137, 0.8157],
+            "TextXAlignment": "Left",
+            "Text": "No tenés pedidos pendientes ni cajas sin recoger.",
+            "ZIndex": 30
+          }
+        },
+        {
+          "name": "OrderRowTemplate",
+          "className": "Frame",
+          "properties": {
+            "LayoutOrder": 2,
+            "Size": { "UDim2": [[1.0, 0], [0.0, 74]] },
+            "BackgroundColor3": [0.0863, 0.1059, 0.149],
+            "BorderSizePixel": 0,
+            "Visible": false,
+            "ZIndex": 30
+          },
+          "children": [
+            {
+              "name": "UICorner",
+              "className": "UICorner",
+              "properties": {
+                "CornerRadius": { "UDim": [0.0, 8] }
+              }
+            },
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "Color": [0.2745, 0.5961, 0.5333],
+                "Thickness": 1.0
+              }
+            },
+            {
+              "name": "OrderTitle",
+              "className": "TextLabel",
+              "properties": {
+                "Position": { "UDim2": [[0.0, 10], [0.0, 8]] },
+                "Size": { "UDim2": [[1.0, -190], [0.0, 20]] },
+                "BackgroundTransparency": 1.0,
+                "Font": "GothamBold",
+                "TextSize": 13,
+                "TextColor3": [0.949, 0.9647, 1],
+                "TextXAlignment": "Left",
+                "TextTruncate": "AtEnd",
+                "Text": "Pedido Normal (1 caja · 60 s)",
+                "ZIndex": 31
+              }
+            },
+            {
+              "name": "OrderCountdown",
+              "className": "TextLabel",
+              "properties": {
+                "Position": { "UDim2": [[0.0, 10], [0.0, 30]] },
+                "Size": { "UDim2": [[1.0, -190], [0.0, 20]] },
+                "BackgroundTransparency": 1.0,
+                "Font": "GothamMedium",
+                "TextSize": 12,
+                "TextColor3": [0.9647, 0.8549, 0.502],
+                "TextXAlignment": "Left",
+                "Text": "Llega en 01:00",
+                "ZIndex": 31
+              }
+            },
+            {
+              "name": "OrderDetail",
+              "className": "TextLabel",
+              "properties": {
+                "Position": { "UDim2": [[0.0, 10], [0.0, 50]] },
+                "Size": { "UDim2": [[1.0, -190], [0.0, 18]] },
+                "BackgroundTransparency": 1.0,
+                "Font": "Gotham",
+                "TextSize": 10,
+                "TextColor3": [0.698, 0.7686, 0.8627],
+                "TextXAlignment": "Left",
+                "TextTruncate": "AtEnd",
+                "Text": "Detalle del pedido...",
+                "ZIndex": 31
+              }
+            },
+            {
+              "name": "PedirAhoraBtn",
+              "className": "TextButton",
+              "properties": {
+                "Position": { "UDim2": [[1.0, -178], [0.5, -17]] },
+                "Size": { "UDim2": [[0.0, 168], [0.0, 34]] },
+                "BackgroundColor3": [0.149, 0.5961, 0.4235],
+                "BorderSizePixel": 0,
+                "AutoButtonColor": true,
+                "Font": "GothamMedium",
+                "TextSize": 11,
+                "TextColor3": [0.9647, 0.9765, 1],
+                "Text": "Pedir ahora (Robux)",
+                "ZIndex": 31
+              },
+              "children": [
+                {
+                  "name": "UICorner",
+                  "className": "UICorner",
+                  "properties": {
+                    "CornerRadius": { "UDim": [0.0, 7] }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ReadyBadge",
+              "className": "TextLabel",
+              "properties": {
+                "Position": { "UDim2": [[1.0, -178], [0.5, -14]] },
+                "Size": { "UDim2": [[0.0, 168], [0.0, 28]] },
+                "BackgroundTransparency": 1.0,
+                "Visible": false,
+                "Font": "GothamBold",
+                "TextSize": 12,
+                "TextColor3": [0.5294, 0.9412, 0.6471],
+                "TextXAlignment": "Center",
+                "Text": "Entregado en zona",
+                "ZIndex": 31
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

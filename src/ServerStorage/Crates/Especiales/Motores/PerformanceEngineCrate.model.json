@@ -1,0 +1,166 @@
+{
+    "className":  "Model",
+    "properties":  {
+                       "Attributes":  {
+                                          "BoxId":  {
+                                                        "String":  "PerformanceEngineCrate"
+                                                    },
+                                          "CrateType":  {
+                                                            "String":  "Special"
+                                                        },
+                                          "RewardCategory":  {
+                                                                 "String":  "GroundEngines"
+                                                             },
+                                          "DisplayName":  {
+                                                              "String":  "Caja de motor de rendimiento"
+                                                          }
+                                      }
+                   },
+    "children":  [
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             1.1,
+                                                             0
+                                                         ],
+                                            "CanCollide":  true,
+                                            "Anchored":  true,
+                                            "Material":  "DiamondPlate",
+                                            "Color":  [
+                                                          0.15,
+                                                          0.2,
+                                                          0.38
+                                                      ],
+                                            "Size":  [
+                                                         2.8,
+                                                         2.2,
+                                                         2.8
+                                                     ]
+                                        },
+                         "name":  "Primary"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.4,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "SmoothPlastic",
+                                            "Color":  [
+                                                          0.26,
+                                                          0.56,
+                                                          0.98
+                                                      ],
+                                            "Size":  [
+                                                         3,
+                                                         0.4,
+                                                         3
+                                                     ]
+                                        },
+                         "name":  "Lid"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             1.2,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Neon",
+                                            "Color":  [
+                                                          0.32,
+                                                          0.68,
+                                                          1
+                                                      ],
+                                            "Size":  [
+                                                         2.86,
+                                                         0.45,
+                                                         2.86
+                                                     ]
+                                        },
+                         "name":  "AccentCore"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             0.14,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Metal",
+                                            "Color":  [
+                                                          0.26,
+                                                          0.56,
+                                                          0.98
+                                                      ],
+                                            "Size":  [
+                                                         2.96,
+                                                         0.24,
+                                                         2.96
+                                                     ]
+                                        },
+                         "name":  "TierTrimBottom"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.75,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Metal",
+                                            "Color":  [
+                                                          0.32,
+                                                          0.68,
+                                                          1
+                                                      ],
+                                            "Size":  [
+                                                         1.1,
+                                                         0.36,
+                                                         0.9
+                                                     ]
+                                        },
+                         "name":  "EmblemEngineBlock"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.98,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Shape":  "Cylinder",
+                                            "Material":  "Neon",
+                                            "Anchored":  true,
+                                            "Color":  [
+                                                          0.26,
+                                                          0.56,
+                                                          0.98
+                                                      ],
+                                            "Size":  [
+                                                         0.42,
+                                                         0.7,
+                                                         0.42
+                                                     ]
+                                        },
+                         "name":  "EmblemPistonHead"
+                     }
+                 ]
+}

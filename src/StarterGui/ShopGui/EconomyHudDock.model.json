@@ -1,0 +1,155 @@
+{
+  "className": "Frame",
+  "properties": {
+    "Position": { "UDim2": [[0.0, 216], [0.0, 12]] },
+    "Size": { "UDim2": [[0.0, 0], [0.0, 42]] },
+    "AutomaticSize": "X",
+    "BackgroundColor3": [0.0784, 0.0941, 0.1333],
+    "BackgroundTransparency": 0.08,
+    "BorderSizePixel": 0,
+    "Active": true,
+    "ZIndex": 10
+  },
+  "children": [
+    {
+      "name": "UICorner",
+      "className": "UICorner",
+      "properties": {
+        "CornerRadius": { "UDim": [0.0, 10] }
+      }
+    },
+    {
+      "name": "UIStroke",
+      "className": "UIStroke",
+      "properties": {
+        "Color": [0.8235, 0.6667, 0.2667],
+        "Thickness": 1.2
+      }
+    },
+    {
+      "name": "UIPadding",
+      "className": "UIPadding",
+      "properties": {
+        "PaddingLeft": { "UDim": [0.0, 8] },
+        "PaddingRight": { "UDim": [0.0, 8] }
+      }
+    },
+    {
+      "name": "UIListLayout",
+      "className": "UIListLayout",
+      "properties": {
+        "FillDirection": "Horizontal",
+        "SortOrder": "LayoutOrder",
+        "VerticalAlignment": "Center",
+        "Padding": { "UDim": [0.0, 6] }
+      }
+    },
+    {
+      "name": "MoneyBadge",
+      "className": "TextLabel",
+      "properties": {
+        "LayoutOrder": 1,
+        "Size": { "UDim2": [[0.0, 104], [0.0, 32]] },
+        "BackgroundColor3": [0.1176, 0.1569, 0.1255],
+        "BackgroundTransparency": 0.12,
+        "BorderSizePixel": 0,
+        "Font": "GothamBold",
+        "TextSize": 13,
+        "TextColor3": [0.5686, 0.9608, 0.6471],
+        "TextXAlignment": "Center",
+        "Text": "$1,000"
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 7] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ShopToggleBtn",
+      "className": "TextButton",
+      "properties": {
+        "LayoutOrder": 2,
+        "Size": { "UDim2": [[0.0, 88], [0.0, 32]] },
+        "BackgroundColor3": [0.9333, 0.7137, 0.1647],
+        "BorderSizePixel": 0,
+        "AutoButtonColor": true,
+        "Font": "GothamBold",
+        "TextSize": 12,
+        "TextColor3": [0.0706, 0.0863, 0.1176],
+        "Text": "Tienda"
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 7] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "OrdersToggleBtn",
+      "className": "TextButton",
+      "properties": {
+        "LayoutOrder": 3,
+        "Size": { "UDim2": [[0.0, 124], [0.0, 32]] },
+        "BackgroundColor3": [0.1725, 0.2196, 0.3059],
+        "BorderSizePixel": 0,
+        "AutoButtonColor": true,
+        "Font": "GothamMedium",
+        "TextSize": 12,
+        "TextColor3": [0.949, 0.9647, 1],
+        "Text": "Mis pedidos (0)"
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 7] }
+          }
+        },
+        {
+          "name": "UIStroke",
+          "className": "UIStroke",
+          "properties": {
+            "Color": [0.3451, 0.4392, 0.5961],
+            "Thickness": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OfflinePendingBtn",
+      "className": "TextButton",
+      "properties": {
+        "LayoutOrder": 4,
+        "Size": { "UDim2": [[0.0, 110], [0.0, 32]] },
+        "BackgroundColor3": [0.2824, 0.5725, 0.2667],
+        "BorderSizePixel": 0,
+        "AutoButtonColor": true,
+        "Visible": false,
+        "Font": "GothamBold",
+        "TextSize": 12,
+        "TextColor3": [0.9647, 0.9882, 0.9725],
+        "Text": "Offline +$0"
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 7] }
+          }
+        }
+      ]
+    }
+  ]
+}
+

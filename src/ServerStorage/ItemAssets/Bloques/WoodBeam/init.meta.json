@@ -1,0 +1,9 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "ItemId": { "String": "WoodBeam" },
+      "Category": { "String": "Structures" }
+    }
+  }
+}

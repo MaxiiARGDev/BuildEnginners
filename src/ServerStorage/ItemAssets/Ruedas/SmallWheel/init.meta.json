@@ -1,0 +1,14 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "ItemId": { "String": "SmallWheel" },
+      "Category": { "String": "Wheels" },
+      "WheelRadius": { "Float64": 1.0 },
+      "WheelWidth": { "Float64": 1.0 },
+      "LocalSpinAxis": { "String": "X" },
+      "LocalSuspensionAxis": { "String": "Y" }
+    }
+  }
+}
+

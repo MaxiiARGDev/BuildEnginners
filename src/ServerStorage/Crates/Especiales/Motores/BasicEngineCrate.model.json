@@ -1,0 +1,50 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "BoxId": { "String": "BasicEngineCrate" },
+      "CrateType": { "String": "Special" },
+      "RewardCategory": { "String": "Engines" },
+      "DisplayName": { "String": "Caja Básica de Motores" }
+    }
+  },
+  "children": [
+    {
+      "name": "Primary",
+      "className": "Part",
+      "properties": {
+        "Size": [2.8, 2.2, 2.8],
+        "Position": [0, 1.1, 0],
+        "Anchored": true,
+        "CanCollide": true,
+        "Color": [0.20, 0.24, 0.30],
+        "Material": "Metal"
+      }
+    },
+    {
+      "name": "Lid",
+      "className": "Part",
+      "properties": {
+        "Size": [3.0, 0.4, 3.0],
+        "Position": [0, 2.4, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.85, 0.56, 0.16],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "name": "AccentCore",
+      "className": "Part",
+      "properties": {
+        "Size": [2.86, 0.45, 2.86],
+        "Position": [0, 1.2, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.95, 0.68, 0.20],
+        "Material": "Neon"
+      }
+    }
+  ]
+}
+

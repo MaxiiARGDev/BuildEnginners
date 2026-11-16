@@ -1,0 +1,13 @@
+{
+  "className": "Part",
+  "properties": {
+    "Size": [1.5, 1.5, 3],
+    "Color": [0.9, 0.55, 0.15],
+    "Material": "Metal"
+  },
+  "children": [
+    { "name": "Conn_Front", "className": "Attachment", "properties": { "Position": [0, 0, -1.5] } },
+    { "name": "Conn_Bottom", "className": "Attachment", "properties": { "Position": [0, -0.75, 0] } }
+  ]
+}
+

@@ -1,0 +1,576 @@
+{
+  "className": "Frame",
+  "properties": {
+    "AnchorPoint": [0.5, 0.5],
+    "Position": { "UDim2": [[0.5, 0], [0.52, 0]] },
+    "Size": { "UDim2": [[0.76, 0], [0.76, 0]] },
+    "BackgroundColor3": [0.0706, 0.0902, 0.1294],
+    "BackgroundTransparency": 0.02,
+    "BorderSizePixel": 0,
+    "Visible": false,
+    "Active": true,
+    "ZIndex": 32
+  },
+  "children": [
+    {
+      "name": "UICorner",
+      "className": "UICorner",
+      "properties": {
+        "CornerRadius": { "UDim": [0.0, 12] }
+      }
+    },
+    {
+      "name": "UIStroke",
+      "className": "UIStroke",
+      "properties": {
+        "Color": [0.9333, 0.7137, 0.1647],
+        "Thickness": 1.6
+      }
+    },
+    {
+      "name": "UISizeConstraint",
+      "className": "UISizeConstraint",
+      "properties": {
+        "MinSize": [580, 370],
+        "MaxSize": [880, 540]
+      }
+    },
+    {
+      "name": "Header",
+      "className": "Frame",
+      "properties": {
+        "Size": { "UDim2": [[1.0, 0], [0.0, 46]] },
+        "BackgroundColor3": [0.102, 0.1255, 0.1804],
+        "BorderSizePixel": 0,
+        "ZIndex": 33
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 12] }
+          }
+        },
+        {
+          "name": "FamilyIconBadge",
+          "className": "Frame",
+          "properties": {
+            "AnchorPoint": [0.0, 0.5],
+            "Position": { "UDim2": [[0.0, 14], [0.5, 0]] },
+            "Size": { "UDim2": [[0.0, 30], [0.0, 30]] },
+            "BackgroundColor3": [0.1333, 0.1725, 0.2471],
+            "BorderSizePixel": 0,
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UICorner",
+              "className": "UICorner",
+              "properties": {
+                "CornerRadius": { "UDim": [0.0, 7] }
+              }
+            },
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "Color": [0.949, 0.7294, 0.1647],
+                "Thickness": 1.0
+              }
+            },
+            {
+              "name": "FamilyIconImage",
+              "className": "ImageLabel",
+              "properties": {
+                "AnchorPoint": [0.5, 0.5],
+                "Position": { "UDim2": [[0.5, 0], [0.5, 0]] },
+                "Size": { "UDim2": [[0.78, 0], [0.78, 0]] },
+                "BackgroundTransparency": 1.0,
+                "BorderSizePixel": 0,
+                "Image": "",
+                "Visible": false,
+                "ZIndex": 35
+              }
+            },
+            {
+              "name": "FamilyIconGlyph",
+              "className": "TextLabel",
+              "properties": {
+                "Size": { "UDim2": [[1.0, 0], [1.0, 0]] },
+                "BackgroundTransparency": 1.0,
+                "Font": "GothamBold",
+                "TextSize": 15,
+                "TextColor3": [0.9882, 0.8392, 0.3451],
+                "TextXAlignment": "Center",
+                "TextYAlignment": "Center",
+                "Text": "⚙",
+                "ZIndex": 35
+              }
+            }
+          ]
+        },
+        {
+          "name": "TitleLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 52], [0.0, 4]] },
+            "Size": { "UDim2": [[1.0, -106], [0.0, 22]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamBold",
+            "TextSize": 16,
+            "TextColor3": [0.9882, 0.8392, 0.3765],
+            "TextXAlignment": "Left",
+            "TextTruncate": "AtEnd",
+            "Text": "Caja Básica de Motores",
+            "ZIndex": 34
+          }
+        },
+        {
+          "name": "CategoryBadge",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 52], [0.0, 25]] },
+            "Size": { "UDim2": [[1.0, -106], [0.0, 16]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamMedium",
+            "TextSize": 11,
+            "TextColor3": [0.6745, 0.8078, 0.9333],
+            "TextXAlignment": "Left",
+            "Text": "Caja Especial · Recompensas sorteadas en servidor",
+            "ZIndex": 34
+          }
+        },
+        {
+          "name": "CloseButton",
+          "className": "TextButton",
+          "properties": {
+            "AnchorPoint": [1.0, 0.5],
+            "Position": { "UDim2": [[1.0, -10], [0.5, 0]] },
+            "Size": { "UDim2": [[0.0, 32], [0.0, 30]] },
+            "BackgroundColor3": [0.5804, 0.2039, 0.2196],
+            "BorderSizePixel": 0,
+            "AutoButtonColor": true,
+            "Font": "GothamBold",
+            "TextSize": 14,
+            "TextColor3": [1, 0.9608, 0.9608],
+            "Text": "✕",
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UICorner",
+              "className": "UICorner",
+              "properties": {
+                "CornerRadius": { "UDim": [0.0, 8] }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeftColumn",
+      "className": "Frame",
+      "properties": {
+        "Position": { "UDim2": [[0.0, 14], [0.0, 56]] },
+        "Size": { "UDim2": [[0.38, -18], [1.0, -68]] },
+        "BackgroundColor3": [0.0549, 0.0706, 0.102],
+        "BorderSizePixel": 0,
+        "ZIndex": 33
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 9] }
+          }
+        },
+        {
+          "name": "UIStroke",
+          "className": "UIStroke",
+          "properties": {
+            "Color": [0.2118, 0.2667, 0.3686],
+            "Thickness": 1.0
+          }
+        },
+        {
+          "name": "PreviewContainer",
+          "className": "Frame",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 10], [0.0, 10]] },
+            "Size": { "UDim2": [[1.0, -20], [0.42, -10]] },
+            "BackgroundColor3": [0.0392, 0.0549, 0.0824],
+            "BorderSizePixel": 0,
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UICorner",
+              "className": "UICorner",
+              "properties": {
+                "CornerRadius": { "UDim": [0.0, 8] }
+              }
+            },
+            {
+              "name": "UIStroke",
+              "className": "UIStroke",
+              "properties": {
+                "Color": [0.8235, 0.6471, 0.2039],
+                "Thickness": 1.0
+              }
+            },
+            {
+              "name": "PreviewViewport",
+              "className": "ViewportFrame",
+              "properties": {
+                "Size": { "UDim2": [[1.0, 0], [1.0, 0]] },
+                "BackgroundTransparency": 1.0,
+                "BorderSizePixel": 0,
+                "Ambient": [0.7137, 0.7608, 0.8431],
+                "LightColor": [1, 0.9804, 0.9333],
+                "LightDirection": [-1.0, -1.2, -1.0],
+                "ZIndex": 35
+              },
+              "children": [
+                {
+                  "name": "WorldModel",
+                  "className": "WorldModel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DescriptionLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 10], [0.43, 4]] },
+            "Size": { "UDim2": [[1.0, -20], [0.18, 0]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "Gotham",
+            "TextSize": 11,
+            "TextColor3": [0.7686, 0.8235, 0.9098],
+            "TextXAlignment": "Left",
+            "TextYAlignment": "Top",
+            "TextWrapped": true,
+            "Text": "Descripción de la caja especial.",
+            "ZIndex": 34
+          }
+        },
+        {
+          "name": "PriceInfoLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 10], [0.62, 0]] },
+            "Size": { "UDim2": [[1.0, -20], [0.0, 20]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamBold",
+            "TextSize": 13,
+            "TextScaled": true,
+            "TextColor3": [0.9882, 0.8314, 0.2824],
+            "TextXAlignment": "Left",
+            "TextTruncate": "AtEnd",
+            "Text": "Precio: $80",
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UITextSizeConstraint",
+              "className": "UITextSizeConstraint",
+              "properties": {
+                "MinTextSize": 9,
+                "MaxTextSize": 13
+              }
+            }
+          ]
+        },
+        {
+          "name": "DeliveryTimeLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 10], [0.62, 22]] },
+            "Size": { "UDim2": [[1.0, -20], [0.0, 18]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamMedium",
+            "TextSize": 11,
+            "TextScaled": true,
+            "TextColor3": [0.6745, 0.8157, 0.9333],
+            "TextXAlignment": "Left",
+            "TextTruncate": "AtEnd",
+            "Text": "Tiempo de entrega: 15 s",
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UITextSizeConstraint",
+              "className": "UITextSizeConstraint",
+              "properties": {
+                "MinTextSize": 8,
+                "MaxTextSize": 11
+              }
+            }
+          ]
+        },
+        {
+          "name": "StockInfoLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 10], [0.62, 42]] },
+            "Size": { "UDim2": [[1.0, -20], [0.0, 20]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamMedium",
+            "TextSize": 11,
+            "TextScaled": true,
+            "TextColor3": [0.5294, 0.9412, 0.6667],
+            "TextXAlignment": "Left",
+            "TextTruncate": "AtEnd",
+            "Text": "Stock: 10/10 · Restock: 05:00",
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UITextSizeConstraint",
+              "className": "UITextSizeConstraint",
+              "properties": {
+                "MinTextSize": 8,
+                "MaxTextSize": 11
+              }
+            }
+          ]
+        },
+        {
+          "name": "BuyModalButton",
+          "className": "TextButton",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 10], [1.0, -42]] },
+            "Size": { "UDim2": [[1.0, -20], [0.0, 32]] },
+            "BackgroundColor3": [0.949, 0.7294, 0.1647],
+            "BorderSizePixel": 0,
+            "AutoButtonColor": true,
+            "Font": "GothamBold",
+            "TextSize": 13,
+            "TextScaled": true,
+            "TextColor3": [0.0706, 0.0863, 0.1176],
+            "Text": "Comprar ($80)",
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UICorner",
+              "className": "UICorner",
+              "properties": {
+                "CornerRadius": { "UDim": [0.0, 7] }
+              }
+            },
+            {
+              "name": "UITextSizeConstraint",
+              "className": "UITextSizeConstraint",
+              "properties": {
+                "MinTextSize": 9,
+                "MaxTextSize": 13
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RightColumn",
+      "className": "Frame",
+      "properties": {
+        "Position": { "UDim2": [[0.38, 6], [0.0, 56]] },
+        "Size": { "UDim2": [[0.62, -20], [1.0, -68]] },
+        "BackgroundColor3": [0.0549, 0.0706, 0.102],
+        "BorderSizePixel": 0,
+        "ZIndex": 33
+      },
+      "children": [
+        {
+          "name": "UICorner",
+          "className": "UICorner",
+          "properties": {
+            "CornerRadius": { "UDim": [0.0, 9] }
+          }
+        },
+        {
+          "name": "UIStroke",
+          "className": "UIStroke",
+          "properties": {
+            "Color": [0.2118, 0.2667, 0.3686],
+            "Thickness": 1.0
+          }
+        },
+        {
+          "name": "RewardsHeaderLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 12], [0.0, 8]] },
+            "Size": { "UDim2": [[1.0, -24], [0.0, 20]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "GothamBold",
+            "TextSize": 12,
+            "TextColor3": [0.9882, 0.8314, 0.2824],
+            "TextXAlignment": "Left",
+            "Text": "RECOMPENSAS POSIBLES Y PROBABILIDADES",
+            "ZIndex": 34
+          }
+        },
+        {
+          "name": "RewardsSummaryLabel",
+          "className": "TextLabel",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 12], [0.0, 28]] },
+            "Size": { "UDim2": [[1.0, -24], [0.0, 28]] },
+            "BackgroundTransparency": 1.0,
+            "Font": "Gotham",
+            "TextSize": 10,
+            "TextColor3": [0.6824, 0.7686, 0.8784],
+            "TextXAlignment": "Left",
+            "TextWrapped": true,
+            "Text": "Distribución por rareza y tamaño autorizada en servidor.",
+            "ZIndex": 34
+          }
+        },
+        {
+          "name": "RewardsScroll",
+          "className": "ScrollingFrame",
+          "properties": {
+            "Position": { "UDim2": [[0.0, 8], [0.0, 58]] },
+            "Size": { "UDim2": [[1.0, -16], [1.0, -66]] },
+            "BackgroundTransparency": 1.0,
+            "BorderSizePixel": 0,
+            "CanvasSize": { "UDim2": [[0.0, 0], [0.0, 0]] },
+            "AutomaticCanvasSize": "Y",
+            "ScrollBarThickness": 6,
+            "ZIndex": 34
+          },
+          "children": [
+            {
+              "name": "UIPadding",
+              "className": "UIPadding",
+              "properties": {
+                "PaddingTop": { "UDim": [0.0, 4] },
+                "PaddingBottom": { "UDim": [0.0, 8] },
+                "PaddingLeft": { "UDim": [0.0, 4] },
+                "PaddingRight": { "UDim": [0.0, 8] }
+              }
+            },
+            {
+              "name": "UIListLayout",
+              "className": "UIListLayout",
+              "properties": {
+                "SortOrder": "LayoutOrder",
+                "Padding": { "UDim": [0.0, 6] }
+              }
+            },
+            {
+              "name": "RewardRowTemplate",
+              "className": "Frame",
+              "properties": {
+                "LayoutOrder": 1,
+                "Size": { "UDim2": [[1.0, 0], [0.0, 54]] },
+                "BackgroundColor3": [0.0863, 0.1098, 0.1569],
+                "BorderSizePixel": 0,
+                "Visible": false,
+                "ZIndex": 35
+              },
+              "children": [
+                {
+                  "name": "UICorner",
+                  "className": "UICorner",
+                  "properties": {
+                    "CornerRadius": { "UDim": [0.0, 7] }
+                  }
+                },
+                {
+                  "name": "UIStroke",
+                  "className": "UIStroke",
+                  "properties": {
+                    "Color": [0.251, 0.3137, 0.4314],
+                    "Thickness": 1.0
+                  }
+                },
+                {
+                  "name": "RarityBadge",
+                  "className": "TextLabel",
+                  "properties": {
+                    "Position": { "UDim2": [[0.0, 8], [0.0, 6]] },
+                    "Size": { "UDim2": [[0.0, 82], [0.0, 18]] },
+                    "BackgroundColor3": [0.1333, 0.1647, 0.2275],
+                    "BorderSizePixel": 0,
+                    "Font": "GothamBold",
+                    "TextSize": 10,
+                    "TextColor3": [0.6902, 0.7216, 0.7686],
+                    "TextXAlignment": "Center",
+                    "Text": "COMÚN",
+                    "ZIndex": 36
+                  },
+                  "children": [
+                    {
+                      "name": "UICorner",
+                      "className": "UICorner",
+                      "properties": {
+                        "CornerRadius": { "UDim": [0.0, 5] }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "RewardNameLabel",
+                  "className": "TextLabel",
+                  "properties": {
+                    "Position": { "UDim2": [[0.0, 96], [0.0, 5]] },
+                    "Size": { "UDim2": [[1.0, -210], [0.0, 20]] },
+                    "BackgroundTransparency": 1.0,
+                    "Font": "GothamBold",
+                    "TextSize": 12,
+                    "TextColor3": [0.949, 0.9686, 1],
+                    "TextXAlignment": "Left",
+                    "TextTruncate": "AtEnd",
+                    "Text": "Motor Pequeño",
+                    "ZIndex": 36
+                  }
+                },
+                {
+                  "name": "ProbabilityLabel",
+                  "className": "TextLabel",
+                  "properties": {
+                    "AnchorPoint": [1.0, 0.0],
+                    "Position": { "UDim2": [[1.0, -10], [0.0, 5]] },
+                    "Size": { "UDim2": [[0.0, 108], [0.0, 20]] },
+                    "BackgroundTransparency": 1.0,
+                    "Font": "GothamBold",
+                    "TextSize": 12,
+                    "TextColor3": [0.9882, 0.8392, 0.3451],
+                    "TextXAlignment": "Right",
+                    "Text": "38.50%",
+                    "ZIndex": 36
+                  }
+                },
+                {
+                  "name": "BonusesLabel",
+                  "className": "TextLabel",
+                  "properties": {
+                    "Position": { "UDim2": [[0.0, 8], [0.0, 28]] },
+                    "Size": { "UDim2": [[1.0, -16], [0.0, 22]] },
+                    "BackgroundTransparency": 1.0,
+                    "Font": "Gotham",
+                    "TextSize": 10,
+                    "TextColor3": [0.6588, 0.7765, 0.8863],
+                    "TextXAlignment": "Left",
+                    "TextTruncate": "AtEnd",
+                    "Text": "Bonificaciones de la unidad...",
+                    "ZIndex": 36
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

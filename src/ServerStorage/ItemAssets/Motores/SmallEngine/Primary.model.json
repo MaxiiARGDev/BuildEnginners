@@ -1,0 +1,16 @@
+{
+  "className": "Part",
+  "properties": {
+    "Size": [2, 2, 2],
+    "Color": [0.35, 0.35, 0.4],
+    "Material": "Metal"
+  },
+  "children": [
+    { "name": "Conn_Bottom", "className": "Attachment", "properties": { "Position": [0, -1, 0] } },
+    { "name": "Conn_Top", "className": "Attachment", "properties": { "Position": [0, 1, 0] } },
+    { "name": "Conn_Front", "className": "Attachment", "properties": { "Position": [0, 0, -1] } },
+    { "name": "Conn_Back", "className": "Attachment", "properties": { "Position": [0, 0, 1] } },
+    { "name": "Conn_Left", "className": "Attachment", "properties": { "Position": [-1, 0, 0] } },
+    { "name": "Conn_Right", "className": "Attachment", "properties": { "Position": [1, 0, 0] } }
+  ]
+}

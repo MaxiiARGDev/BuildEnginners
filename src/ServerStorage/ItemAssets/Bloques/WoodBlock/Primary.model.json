@@ -1,0 +1,17 @@
+{
+  "className": "Part",
+  "properties": {
+    "Size": [2, 2, 2],
+    "Color": [0.64, 0.45, 0.28],
+    "Material": "Wood"
+  },
+  "children": [
+    { "name": "Conn_Top", "className": "Attachment", "properties": { "Position": [0, 1, 0] } },
+    { "name": "Conn_Bottom", "className": "Attachment", "properties": { "Position": [0, -1, 0] } },
+    { "name": "Conn_Front", "className": "Attachment", "properties": { "Position": [0, 0, -1] } },
+    { "name": "Conn_Back", "className": "Attachment", "properties": { "Position": [0, 0, 1] } },
+    { "name": "Conn_Left", "className": "Attachment", "properties": { "Position": [-1, 0, 0] } },
+    { "name": "Conn_Right", "className": "Attachment", "properties": { "Position": [1, 0, 0] } }
+  ]
+}
+

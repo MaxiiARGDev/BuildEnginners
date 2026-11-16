@@ -1,0 +1,24 @@
+{
+  "className": "Part",
+  "properties": {
+    "Size": [1, 1, 4],
+    "Color": [0.64, 0.45, 0.28],
+    "Material": "Wood"
+  },
+  "children": [
+    { "name": "Conn_Front", "className": "Attachment", "properties": { "Position": [0, 0, -2] } },
+    { "name": "Conn_Back", "className": "Attachment", "properties": { "Position": [0, 0, 2] } },
+    { "name": "Conn_Top", "className": "Attachment", "properties": { "Position": [0, 0.5, 0] } },
+    { "name": "Conn_TopFront", "className": "Attachment", "properties": { "Position": [0, 0.5, -1.5] } },
+    { "name": "Conn_TopBack", "className": "Attachment", "properties": { "Position": [0, 0.5, 1.5] } },
+    { "name": "Conn_Bottom", "className": "Attachment", "properties": { "Position": [0, -0.5, 0] } },
+    { "name": "Conn_BottomFront", "className": "Attachment", "properties": { "Position": [0, -0.5, -1.5] } },
+    { "name": "Conn_BottomBack", "className": "Attachment", "properties": { "Position": [0, -0.5, 1.5] } },
+    { "name": "Conn_Left", "className": "Attachment", "properties": { "Position": [-0.5, 0, 0] } },
+    { "name": "Conn_LeftFront", "className": "Attachment", "properties": { "Position": [-0.5, 0, -1.5] } },
+    { "name": "Conn_LeftBack", "className": "Attachment", "properties": { "Position": [-0.5, 0, 1.5] } },
+    { "name": "Conn_Right", "className": "Attachment", "properties": { "Position": [0.5, 0, 0] } },
+    { "name": "Conn_RightFront", "className": "Attachment", "properties": { "Position": [0.5, 0, -1.5] } },
+    { "name": "Conn_RightBack", "className": "Attachment", "properties": { "Position": [0.5, 0, 1.5] } }
+  ]
+}

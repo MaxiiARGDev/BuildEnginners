@@ -1,0 +1,6 @@
+# This file lists tools managed by Aftman, a toolchain manager for Roblox projects.
+# For more information, see https://github.com/LPGhatguy/aftman
+
+[tools]
+rojo = "rojo-rbx/rojo@7.7.0"
+

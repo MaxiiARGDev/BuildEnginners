@@ -1,0 +1,10 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "ItemId": { "String": "LargeGliderWing" },
+      "Category": { "String": "Aerodynamics" }
+    }
+  }
+}
+

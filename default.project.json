@@ -1,0 +1,62 @@
+{
+  "name": "VehicleSandbox",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Plots": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "ItemAssets": {
+        "$path": "src/ServerStorage/ItemAssets"
+      },
+      "Crates": {
+        "$path": "src/ServerStorage/Crates"
+      },
+      "MissionAssets": {
+        "$path": "src/ServerStorage/MissionAssets"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "Server": {
+        "$path": "src/ServerScriptService/Server"
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "ShopGui": {
+        "$path": "src/StarterGui/ShopGui"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "Client": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/Client"
+        }
+      }
+    }
+  }
+}

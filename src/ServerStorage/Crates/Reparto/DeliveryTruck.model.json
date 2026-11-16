@@ -1,0 +1,121 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "DisplayName": { "String": "Camión de Reparto" },
+      "PropRole": { "String": "DeliveryTruckVisual" }
+    }
+  },
+  "children": [
+    {
+      "name": "Primary",
+      "className": "Part",
+      "properties": {
+        "Size": [5.6, 1.0, 11.0],
+        "Position": [0, 1.4, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.18, 0.20, 0.24],
+        "Material": "Metal"
+      }
+    },
+    {
+      "name": "Cab",
+      "className": "Part",
+      "properties": {
+        "Size": [5.2, 4.0, 3.6],
+        "Position": [0, 3.9, -3.5],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.16, 0.44, 0.76],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "name": "Windshield",
+      "className": "Part",
+      "properties": {
+        "Size": [4.6, 1.6, 0.2],
+        "Position": [0, 4.4, -5.32],
+        "Anchored": true,
+        "CanCollide": false,
+        "Transparency": 0.3,
+        "Color": [0.55, 0.82, 0.96],
+        "Material": "Glass"
+      }
+    },
+    {
+      "name": "CargoBox",
+      "className": "Part",
+      "properties": {
+        "Size": [5.5, 4.6, 7.0],
+        "Position": [0, 4.2, 2.0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.90, 0.92, 0.95],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "name": "BeaconLight",
+      "className": "Part",
+      "properties": {
+        "Size": [1.4, 0.4, 0.6],
+        "Position": [0, 6.1, -3.5],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [1.0, 0.68, 0.14],
+        "Material": "Neon"
+      }
+    },
+    {
+      "name": "WheelFL",
+      "className": "Part",
+      "properties": {
+        "Size": [0.8, 1.8, 1.8],
+        "Position": [-2.6, 0.9, -3.4],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.10, 0.10, 0.12],
+        "Material": "Rubber"
+      }
+    },
+    {
+      "name": "WheelFR",
+      "className": "Part",
+      "properties": {
+        "Size": [0.8, 1.8, 1.8],
+        "Position": [2.6, 0.9, -3.4],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.10, 0.10, 0.12],
+        "Material": "Rubber"
+      }
+    },
+    {
+      "name": "WheelRL",
+      "className": "Part",
+      "properties": {
+        "Size": [0.8, 1.8, 1.8],
+        "Position": [-2.6, 0.9, 3.2],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.10, 0.10, 0.12],
+        "Material": "Rubber"
+      }
+    },
+    {
+      "name": "WheelRR",
+      "className": "Part",
+      "properties": {
+        "Size": [0.8, 1.8, 1.8],
+        "Position": [2.6, 0.9, 3.2],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.10, 0.10, 0.12],
+        "Material": "Rubber"
+      }
+    }
+  ]
+}
+

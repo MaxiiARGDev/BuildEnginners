@@ -1,0 +1,50 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "BoxId": { "String": "BasicBoosterCrate" },
+      "CrateType": { "String": "Special" },
+      "RewardCategory": { "String": "Boosters" },
+      "DisplayName": { "String": "Caja Básica de Propulsores" }
+    }
+  },
+  "children": [
+    {
+      "name": "Primary",
+      "className": "Part",
+      "properties": {
+        "Size": [2.8, 2.2, 2.8],
+        "Position": [0, 1.1, 0],
+        "Anchored": true,
+        "CanCollide": true,
+        "Color": [0.14, 0.22, 0.34],
+        "Material": "DiamondPlate"
+      }
+    },
+    {
+      "name": "Lid",
+      "className": "Part",
+      "properties": {
+        "Size": [3.0, 0.4, 3.0],
+        "Position": [0, 2.4, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.22, 0.72, 0.96],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "name": "AccentCore",
+      "className": "Part",
+      "properties": {
+        "Size": [2.86, 0.45, 2.86],
+        "Position": [0, 1.2, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.24, 0.85, 1.0],
+        "Material": "Neon"
+      }
+    }
+  ]
+}
+

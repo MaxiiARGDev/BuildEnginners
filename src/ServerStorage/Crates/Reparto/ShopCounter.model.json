@@ -1,0 +1,57 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "DisplayName": { "String": "Mostrador de Tienda" },
+      "PropRole": { "String": "ShopCounter" }
+    }
+  },
+  "children": [
+    {
+      "name": "Primary",
+      "className": "Part",
+      "properties": {
+        "Size": [6.0, 2.8, 2.4],
+        "Position": [0, 1.4, 0],
+        "Anchored": true,
+        "CanCollide": true,
+        "Color": [0.18, 0.22, 0.30],
+        "Material": "SmoothPlastic"
+      },
+      "children": [
+        {
+          "name": "PromptAnchor",
+          "className": "Attachment",
+          "properties": {
+            "Position": [0, 1.8, 0]
+          }
+        }
+      ]
+    },
+    {
+      "name": "CounterTop",
+      "className": "Part",
+      "properties": {
+        "Size": [6.4, 0.3, 2.8],
+        "Position": [0, 2.95, 0],
+        "Anchored": true,
+        "CanCollide": true,
+        "Color": [0.22, 0.65, 0.58],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "name": "SignBoard",
+      "className": "Part",
+      "properties": {
+        "Size": [4.4, 1.4, 0.3],
+        "Position": [0, 4.4, 0.8],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.14, 0.18, 0.26],
+        "Material": "Neon"
+      }
+    }
+  ]
+}
+

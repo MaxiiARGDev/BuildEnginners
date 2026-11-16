@@ -1,0 +1,190 @@
+{
+    "className":  "Model",
+    "properties":  {
+                       "Attributes":  {
+                                          "BoxId":  {
+                                                        "String":  "SpecialBoosterCrate"
+                                                    },
+                                          "CrateType":  {
+                                                            "String":  "Special"
+                                                        },
+                                          "RewardCategory":  {
+                                                                 "String":  "Boosters"
+                                                             },
+                                          "DisplayName":  {
+                                                              "String":  "Caja de refuerzo especial"
+                                                          }
+                                      }
+                   },
+    "children":  [
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             1.1,
+                                                             0
+                                                         ],
+                                            "CanCollide":  true,
+                                            "Anchored":  true,
+                                            "Material":  "DiamondPlate",
+                                            "Color":  [
+                                                          0.22,
+                                                          0.14,
+                                                          0.3
+                                                      ],
+                                            "Size":  [
+                                                         2.8,
+                                                         2.2,
+                                                         2.8
+                                                     ]
+                                        },
+                         "name":  "Primary"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.4,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "SmoothPlastic",
+                                            "Color":  [
+                                                          0.92,
+                                                          0.24,
+                                                          0.62
+                                                      ],
+                                            "Size":  [
+                                                         3,
+                                                         0.4,
+                                                         3
+                                                     ]
+                                        },
+                         "name":  "Lid"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             1.2,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Neon",
+                                            "Color":  [
+                                                          1,
+                                                          0.36,
+                                                          0.74
+                                                      ],
+                                            "Size":  [
+                                                         2.86,
+                                                         0.45,
+                                                         2.86
+                                                     ]
+                                        },
+                         "name":  "AccentCore"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             0.14,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Metal",
+                                            "Color":  [
+                                                          0.92,
+                                                          0.24,
+                                                          0.62
+                                                      ],
+                                            "Size":  [
+                                                         2.96,
+                                                         0.24,
+                                                         2.96
+                                                     ]
+                                        },
+                         "name":  "TierTrimBottom"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.86,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Shape":  "Cylinder",
+                                            "Material":  "Metal",
+                                            "Anchored":  true,
+                                            "Color":  [
+                                                          0.92,
+                                                          0.24,
+                                                          0.62
+                                                      ],
+                                            "Size":  [
+                                                         0.62,
+                                                         0.65,
+                                                         0.65
+                                                     ]
+                                        },
+                         "name":  "EmblemBoosterNozzle"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.75,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Neon",
+                                            "Color":  [
+                                                          1,
+                                                          0.36,
+                                                          0.74
+                                                      ],
+                                            "Size":  [
+                                                         1.3,
+                                                         0.34,
+                                                         0.16
+                                                     ]
+                                        },
+                         "name":  "EmblemFinA"
+                     },
+                     {
+                         "className":  "Part",
+                         "properties":  {
+                                            "Position":  [
+                                                             0,
+                                                             2.75,
+                                                             0
+                                                         ],
+                                            "CanCollide":  false,
+                                            "Anchored":  true,
+                                            "Material":  "Neon",
+                                            "Color":  [
+                                                          1,
+                                                          0.36,
+                                                          0.74
+                                                      ],
+                                            "Size":  [
+                                                         0.16,
+                                                         0.34,
+                                                         1.3
+                                                     ]
+                                        },
+                         "name":  "EmblemFinB"
+                     }
+                 ]
+}

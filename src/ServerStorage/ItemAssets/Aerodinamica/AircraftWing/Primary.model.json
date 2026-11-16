@@ -1,0 +1,23 @@
+{
+  "className": "Part",
+  "properties": {
+    "Size": [6, 0.45, 4],
+    "Position": [0, 0, 0],
+    "Color": [0.76, 0.80, 0.86],
+    "Material": "Metal"
+  },
+  "children": [
+    { "name": "Conn_Left", "className": "Attachment", "properties": { "Position": [-3.0, 0, 0] } },
+    { "name": "Conn_LeftFront", "className": "Attachment", "properties": { "Position": [-3.0, 0, -1.2] } },
+    { "name": "Conn_LeftBack", "className": "Attachment", "properties": { "Position": [-3.0, 0, 1.2] } },
+    { "name": "Conn_Right", "className": "Attachment", "properties": { "Position": [3.0, 0, 0] } },
+    { "name": "Conn_RightFront", "className": "Attachment", "properties": { "Position": [3.0, 0, -1.2] } },
+    { "name": "Conn_RightBack", "className": "Attachment", "properties": { "Position": [3.0, 0, 1.2] } },
+    { "name": "Conn_Top", "className": "Attachment", "properties": { "Position": [0, 0.225, 0] } },
+    { "name": "Conn_Bottom", "className": "Attachment", "properties": { "Position": [0, -0.225, 0] } },
+    { "name": "Conn_Front", "className": "Attachment", "properties": { "Position": [0, 0, -2.0] } },
+    { "name": "Conn_Back", "className": "Attachment", "properties": { "Position": [0, 0, 2.0] } },
+    { "name": "AeroForceAttachment", "className": "Attachment", "properties": { "Position": [0, 0, -0.10] } }
+  ]
+}
+

@@ -1,0 +1,22 @@
+{
+  "className": "Part",
+  "properties": {
+    "Shape": "Cylinder",
+    "Size": [1, 2, 2],
+    "Color": [0.15, 0.15, 0.17],
+    "Material": "Rubber"
+  },
+  "children": [
+    { "name": "Conn_Axle", "className": "Attachment", "properties": { "Position": [-0.5, 0, 0] } },
+    { "name": "Conn_AxleRight", "className": "Attachment", "properties": { "Position": [0.5, 0, 0] } },
+    {
+      "name": "WheelHub",
+      "className": "Attachment",
+      "properties": {
+        "Position": [0, 0, 0],
+        "Orientation": [0, 0, 0]
+      }
+    }
+  ]
+}
+

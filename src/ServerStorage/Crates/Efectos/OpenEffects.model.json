@@ -1,0 +1,53 @@
+{
+  "className": "Folder",
+  "properties": {
+    "Attributes": {
+      "DisplayName": { "String": "Efectos y Sonidos de Cajas" }
+    }
+  },
+  "children": [
+    {
+      "name": "CrateGlowLight",
+      "className": "PointLight",
+      "properties": {
+        "Brightness": 2.0,
+        "Range": 12.0,
+        "Color": [1.0, 0.85, 0.35],
+        "Enabled": true
+      }
+    },
+    {
+      "name": "OpenSparkEmitter",
+      "className": "ParticleEmitter",
+      "properties": {
+        "Enabled": false,
+        "Rate": 0,
+        "SpreadAngle": [45, 45]
+      }
+    },
+    {
+      "name": "CrateArriveSound",
+      "className": "Sound",
+      "properties": {
+        "SoundId": "",
+        "Volume": 0.6
+      }
+    },
+    {
+      "name": "CrateOpenSound",
+      "className": "Sound",
+      "properties": {
+        "SoundId": "",
+        "Volume": 0.75
+      }
+    },
+    {
+      "name": "RareDropSound",
+      "className": "Sound",
+      "properties": {
+        "SoundId": "",
+        "Volume": 0.85
+      }
+    }
+  ]
+}

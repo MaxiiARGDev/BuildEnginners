@@ -1,0 +1,48 @@
+{
+  "className": "Model",
+  "properties": {
+    "Attributes": {
+      "CrateType": { "String": "Normal" },
+      "DisplayName": { "String": "Caja de Entrega Normal" }
+    }
+  },
+  "children": [
+    {
+      "name": "Primary",
+      "className": "Part",
+      "properties": {
+        "Size": [2.4, 2.0, 2.4],
+        "Position": [0, 1.0, 0],
+        "Anchored": true,
+        "CanCollide": true,
+        "Color": [0.68, 0.50, 0.30],
+        "Material": "WoodPlanks"
+      }
+    },
+    {
+      "name": "Lid",
+      "className": "Part",
+      "properties": {
+        "Size": [2.6, 0.35, 2.6],
+        "Position": [0, 2.175, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.55, 0.38, 0.22],
+        "Material": "Wood"
+      }
+    },
+    {
+      "name": "StrapBand",
+      "className": "Part",
+      "properties": {
+        "Size": [2.46, 0.30, 2.46],
+        "Position": [0, 1.15, 0],
+        "Anchored": true,
+        "CanCollide": false,
+        "Color": [0.22, 0.28, 0.36],
+        "Material": "Metal"
+      }
+    }
+  ]
+}
+

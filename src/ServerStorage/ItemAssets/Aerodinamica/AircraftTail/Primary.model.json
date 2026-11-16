@@ -1,0 +1,20 @@
+{
+  "className": "Part",
+  "properties": {
+    "Size": [5, 0.4, 3],
+    "Position": [0, 0, 0],
+    "Color": [0.24, 0.34, 0.48],
+    "Material": "SmoothPlastic"
+  },
+  "children": [
+    { "name": "Conn_Front", "className": "Attachment", "properties": { "Position": [0, 0, -1.5] } },
+    { "name": "Conn_Back", "className": "Attachment", "properties": { "Position": [0, 0, 1.5] } },
+    { "name": "Conn_Bottom", "className": "Attachment", "properties": { "Position": [0, -0.2, 0] } },
+    { "name": "Conn_BottomFront", "className": "Attachment", "properties": { "Position": [0, -0.2, -0.9] } },
+    { "name": "Conn_Top", "className": "Attachment", "properties": { "Position": [0, 0.2, -1.0] } },
+    { "name": "Conn_Left", "className": "Attachment", "properties": { "Position": [-2.5, 0, 0] } },
+    { "name": "Conn_Right", "className": "Attachment", "properties": { "Position": [2.5, 0, 0] } },
+    { "name": "AeroForceAttachment", "className": "Attachment", "properties": { "Position": [0, 0.25, 0.35] } }
+  ]
+}
+
